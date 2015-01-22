@@ -20,11 +20,11 @@ The two data frames are concatenated using the rbind function to create  a new d
 
 A new list is then created by looping through the data frame and filtering on each activity and computing the mean for each each subject under a particular activity.
 
-a summary data set is then created by contenating all six dataframe within the list object created from the loop above.
+A summary data set is then created by contenating all six dataframe within the list object created from the loop above.
 
-A lable column is created in the summary data to make align all the activities with thier lables
+A lable column is created in the summary data frame to make align all the activities with thier lables.
 
-A text file is then created to from the summary data object.
+A text file is then created from the summary data object.
 
 
 
